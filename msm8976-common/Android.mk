@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter gts210velte gts210vewifi gts28velte gts28vewifi,$(TARGET_DEVICE)),)
+ifneq ($(filter gts210vewifi,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libloc_api_v02
